@@ -30,7 +30,21 @@ Repositori ini berisi dua paket dengan isi yang sama:
 
 ### Claude Code (plugin)
 
-Untuk uji lokal, arahkan Claude Code ke folder plugin:
+**Pasang dari marketplace (disarankan):**
+
+1. Di Claude Code, tambahkan marketplace:
+   ```
+   /plugin marketplace add oddycosplay/jurnalpro
+   ```
+2. Pasang plugin dari marketplace tersebut:
+   ```
+   /plugin install jurnal-pro@oddycosplay-jurnalpro
+   ```
+3. Jalankan `/jurnal-pro`, opsional dengan path manuskrip atau topik.
+
+Untuk memperbarui plugin nanti, jalankan `/plugin marketplace update oddycosplay-jurnalpro`.
+
+**Uji lokal (untuk pengembang):** arahkan Claude Code ke folder plugin:
 
 ```powershell
 claude --plugin-dir "path\ke\jurnalpro\jurnal-pro"
