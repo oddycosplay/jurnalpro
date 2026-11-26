@@ -38,6 +38,23 @@ claude --plugin-dir "path\ke\jurnalpro\jurnal-pro"
 
 Setelah itu jalankan `/jurnal-pro`, opsional dengan path manuskrip atau topik.
 
+### Claude.ai (chat)
+
+Di Claude.ai, plugin tidak dipasang lewat perintah `claude --plugin-dir`. Ada dua cara:
+
+**Cara A: unggah sebagai skill (disarankan)**
+
+1. Buat berkas ZIP dari folder `jurnal-pro/skills/jurnal-pro/`. Pastikan `SKILL.md` berada di tingkat paling atas di dalam ZIP, dan semua berkas lain di folder itu ikut masuk.
+2. Di Claude.ai, buka **Pengaturan** lalu **Kemampuan** (Capabilities), lalu bagian **Skills**, dan pilih unggah skill. Nama menu bisa berbeda tergantung versi aplikasi.
+3. Unggah berkas ZIP tersebut. Setelah aktif, ketik `/jurnal-pro` atau minta Claude mencari jurnal untuk manuskrip Anda.
+
+**Cara B: pakai versi portable (tanpa instalasi plugin)**
+
+1. Buat Project baru di Claude.ai.
+2. Tempel isi `jurnal-pro-portable/instruksi-sistem.md` ke kolom instruksi Project.
+3. Unggah berkas dari `jurnal-pro-portable/knowledge/` ke Project.
+4. Aktifkan pencarian web. Verifikasi jurnal bergantung padanya.
+
 ### ChatGPT, Gemini, dan AI lain
 
 Ikuti panduan di [`jurnal-pro-portable/README.md`](jurnal-pro-portable/README.md). Singkatnya:
