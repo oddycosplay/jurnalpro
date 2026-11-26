@@ -1,0 +1,11 @@
+{
+  "name": "oddycosplay-jurnalpro",
+  "owner": { "name": "oddycosplay" },
+  "plugins": [
+    {
+      "name": "jurnal-pro",
+      "source": "./jurnal-pro",
+      "description": "Temukan dan verifikasi jurnal publikasi yang tepat untuk manuskrip Anda."
+    }
+  ]
+}
