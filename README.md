@@ -88,6 +88,12 @@ jurnal-pro-portable/                  Paket untuk AI chat
 - **Pertanyaan penggunaan** juga bisa diajukan lewat issue dengan judul yang jelas.
 - Jika paket ini membantu, **beri bintang ⭐** pada repositori. Itu membantu orang lain menemukannya.
 
+## ❤️ Donasi
+
+Jika Jurnal Pro membantu pekerjaan Anda, dukungan Anda membantu pengembangannya:
+
+- ☕ **GitHub Sponsors:** [github.com/sponsors/oddycosplay](https://github.com/sponsors/oddycosplay)
+
 ## 👤 Pembuat
 
 **oddycosplay**, pembuat dan pengelola proyek ini.
